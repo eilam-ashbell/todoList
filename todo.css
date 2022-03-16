@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#taskField {
+    margin: auto;
+}
+
+button {
+    margin: auto;
+}
+
+#taskWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.task {
+    width: 400px;
+    background-color: lightgrey;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 0.5rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.priority {
+    width: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+#taskPriority {
+    margin: auto;
+}
+
+label {
+    display:inline-block;
+}
